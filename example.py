@@ -13,7 +13,8 @@ for e in elements:
     if e.text == "More information...":
         e.click() # After click the "More information..." element, it is a link, so the
                   # website should be redirected to the linked website.
-                  
+
         # 5 ways to interact with elements: can click, send keys, clear, submit, and select.
         print("Successfully clicked.")
 
+driver.quit()
